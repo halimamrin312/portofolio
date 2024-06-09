@@ -23,7 +23,7 @@ function Header() {
                         <p>I am a fourth-semester student with a strong passion for coding and software development. I have experience in building mobile applications with Flutter and developing websites using CodeIgniter and Laravel. I am committed to continuous learning and improving my technical skills.</p>
                         </div>
                     </div>
-                    
+
                     <div className=''>
                         <div className='grid grid-cols-4 text-center font-bold border-b border-b-black'>
                             <p>Name</p>
@@ -40,19 +40,19 @@ function Header() {
                     </div>
                     <div className='flex flex-row'>
                         <div className='px-6'>
-                            <a href="#" ><LuMail size={20} /></a>
+                            <a href="https://www.linkedin.com/in/halim-amrin/" ><LuLinkedin size={20} /></a>
+                        </div>
+                        <div className='px-6'>
+                            <a href="https://www.github.com/halimamrin312" ><LuGithub size={20} /></a>
                         </div>
                         <div className='px-6'>
                             <a href="https://wa.me/+6289620835220" ><LuPhone size={20} /></a>
                         </div>
                         <div className='px-6'>
-                            <a href="#" ><LuInstagram size={20} /></a>
+                            <a href="https://www.instagram.com/myaww_._/" ><LuInstagram size={20} /></a>
                         </div>
                         <div className='px-6'>
-                            <a href="#" ><LuLinkedin size={20} /></a>
-                        </div>
-                        <div className='px-6'>
-                            <a href="#" ><LuGithub size={20} /></a>
+                            <a href="mailto:Halimamrin080@gmail.com" ><LuMail size={20} /></a>
                         </div>
                     </div>
                 </div>

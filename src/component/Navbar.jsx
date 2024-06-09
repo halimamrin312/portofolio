@@ -1,5 +1,5 @@
 // import '../style/Navbar.css'
-import './NavbarA'
+// import './NavbarA'
 import CustomLink from './NavbarA'
 
 function Navbar() {
@@ -9,8 +9,8 @@ function Navbar() {
                 <p>My PortoFolio</p>
             </div>
             <div className=" grid grid-cols-3 gap-10 ">
-                <CustomLink href="#experience">Experience</CustomLink>
                 <CustomLink href="#project">Project</CustomLink>
+                <CustomLink href="#experience">Experience</CustomLink>
                 <CustomLink href="#certifactes">Certificates</CustomLink>
             </div>
 
