@@ -1,9 +1,9 @@
 // import '../style/Navbar.css'
-import '../../public/assets/image1.png'
+// import '../../public/assets/image1.png'
 import CustomLink from './NavbarA'
 
 function Navbar() {
-    const file = '../../public/assets/image1.png'
+    const file = 'assets/image1.png'
     const downloadFileAtUrl=(url)=>{
         const fileName = url.split("/").pop();
         const aTag = document.createElement("a");
