@@ -7,10 +7,10 @@ function Project() {
                 <p>MY PROJECT</p>
             </div>
             <div className='flex flex-wrap justify-between gap-10'>
-                <CustomLink href="https://github.com/halimamrin312/manajementevent">MANAJEMEN EVENT</CustomLink>
-                <CustomLink href="https://github.com/halimamrin312/portofolio">WEBSITE PORTOFOLIO</CustomLink>
-                <CustomLink href="https://github.com/halimamrin312/RHD---Project">RHD</CustomLink>
-                <CustomLink href="https://www.figma.com/proto/DYJmBTw9UhONRjLIFXLDkR/DuckGear?node-id=4-2&t=FghOWKRnyk4IFTCT-1">Duck-Gear</CustomLink>
+                <CustomLink src="../../public/assets/image1.png" href="https://github.com/halimamrin312/manajementevent">MANAJEMEN EVENT</CustomLink>
+                <CustomLink src="../../public/assets/image2.png" href="https://github.com/halimamrin312/portofolio">WEBSITE PORTOFOLIO</CustomLink>
+                <CustomLink src="../../public/assets/image3.png" href="https://github.com/halimamrin312/RHD---Project">RHD</CustomLink>
+                <CustomLink src="../../public/assets/image4.png" href="https://www.figma.com/proto/DYJmBTw9UhONRjLIFXLDkR/DuckGear?node-id=4-2&t=FghOWKRnyk4IFTCT-1">Duck-Gear</CustomLink>
             </div>
 
 
