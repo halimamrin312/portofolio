@@ -1,9 +1,9 @@
 // import '../style/Navbar.css'
-// import '../../public/cv/CV-Muhammad-Halim-Amrin.pdf'
+// import '../../public/assets/CV-Muhammad-Halim-Amrin.pdf'
 import CustomLink from './NavbarA'
 
 function Navbar() {
-    const file = '../../public/cv/CV-Muhammad-Halim-Amrin.pdf'
+    const file = '../../public/assets/CV-Muhammad-Halim-Amrin.pdf'
     const downloadFileAtUrl=(url)=>{
         const fileName = url.split("/").pop();
         const aTag = document.createElement("a");
