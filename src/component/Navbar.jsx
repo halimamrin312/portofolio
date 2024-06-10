@@ -1,9 +1,9 @@
 // import '../style/Navbar.css'
-// import '../../public/assets/CV-Muhammad-Halim-Amrin.pdf'
+import '../../public/assets/image1.png'
 import CustomLink from './NavbarA'
 
 function Navbar() {
-    const file = '../../public/assets/CV-Muhammad-Halim-Amrin.pdf'
+    const file = '../../public/assets/image1.png'
     const downloadFileAtUrl=(url)=>{
         const fileName = url.split("/").pop();
         const aTag = document.createElement("a");
@@ -25,9 +25,9 @@ function Navbar() {
             </div>
 
             <div>
-                {/* <button onClick={()=>{downloadFileAtUrl(file)}}> */}
-                <a href="../../public/assets/CV-Muhammad-Halim-Amrin.pdf" className="text-slate-900 bg-yellow-400 px-2 py-2 ">Download CV</a>
-                {/* </button> */}
+                <button onClick={()=>{downloadFileAtUrl(file)}}>
+                <a className="text-slate-900 bg-yellow-400 px-2 py-2 ">Download CV</a>
+                </button>
             </div>
         </nav>
     )
