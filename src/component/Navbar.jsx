@@ -8,10 +8,10 @@ function Navbar() {
             <div>
                 <p>My PortoFolio</p>
             </div>
-            <div className=" grid grid-cols-3 gap-10 ">
-                <CustomLink href="#project">Project</CustomLink>
-                <CustomLink href="#experience">Experience</CustomLink>
-                <CustomLink href="#certifactes">Certificates</CustomLink>
+            <div className=" grid grid-cols-1 gap-10 ">
+                <CustomLink href="#project">My Project</CustomLink>
+                {/* <CustomLink href="#experience">Experience</CustomLink>
+                <CustomLink href="#certifactes">Certificates</CustomLink> */}
             </div>
 
             <div>
