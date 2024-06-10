@@ -4,11 +4,11 @@ import CustomLink from './NavbarA'
 
 function Navbar() {
     const file = 'assets/image1.png'
-    const downloadFileAtUrl=(url)=>{
+    const downloadFileAtUrl = (url) => {
         const fileName = url.split("/").pop();
         const aTag = document.createElement("a");
         aTag.href = url;
-        aTag.setAttribute("download",fileName);
+        aTag.setAttribute("download", fileName);
         document.body.appendChild(aTag);
         aTag.click();
         aTag.remove();
@@ -25,9 +25,9 @@ function Navbar() {
             </div>
 
             <div>
-                <button onClick={()=>{downloadFileAtUrl(file)}}>
-                <a className="text-slate-900 bg-yellow-400 px-2 py-2 ">Download CV</a>
-                </button>
+                {/* <button onClick={()=>{downloadFileAtUrl(file)}}> */}
+                <a href="https://drive.usercontent.google.com/download?id=1CRG8ZI-A96AriyN4TcPZ5_OusbtzuN65&export=download&authuser=0" className="text-slate-900 bg-yellow-400 px-2 py-2 ">Download CV</a>
+                {/* </button> */}
             </div>
         </nav>
     )
