@@ -25,9 +25,9 @@ function Navbar() {
             </div>
 
             <div>
-                <button onClick={()=>{downloadFileAtUrl(file)}}>
-                <a className="text-slate-900 bg-yellow-400 px-2 py-2 ">Download CV</a>
-                </button>
+                {/* <button onClick={()=>{downloadFileAtUrl(file)}}> */}
+                <a href="../../public/assets/CV-Muhammad-Halim-Amrin.pdf" className="text-slate-900 bg-yellow-400 px-2 py-2 ">Download CV</a>
+                {/* </button> */}
             </div>
         </nav>
     )
