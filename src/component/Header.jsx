@@ -1,4 +1,4 @@
-import profilePicture from '../../public/assets/almet.jpg'
+import profilePicture from '../../src/assets/almet.jpg'
 
 import { LuInstagram } from "react-icons/lu";
 import { LuMail } from "react-icons/lu";
@@ -10,7 +10,7 @@ function Header() {
     return (
         <header>
             <div className=' h-screen flex justify-center items-center'>
-                
+
                 <div className=' w-2/3 grid gap-10'>
 
                     <div className='grid place-content-center'>
@@ -20,7 +20,7 @@ function Header() {
                         <p className='font-bold'>MUHAMMAD HALIM AMRIN</p>
                         <p >Front-End Developer</p>
                         <div className='text-justify'>
-                        <p>I am a fourth-semester student with a strong passion for coding and software development. I have experience in building mobile applications with Flutter and developing websites using CodeIgniter and Laravel. I am committed to continuous learning and improving my technical skills.</p>
+                            <p>I'm an Informatics Engineering student at Lancang Kuning University in Pekanbaru, Indonesia, passionate about web development. With skills in HTML, CSS, JavaScript, Laravel, and React JS, I've worked on projects like event management systems and e-commerce platforms. I've also gained hands-on experience in hardware maintenance and customer service as a freelance technician and university labor assistant. Continuously learning through workshops and certifications, I'm adept at communication, teamwork, and time management. Outside of academics, I enjoy music, gaming, and drawing. I'm driven to contribute to innovative projects and teams, always seeking growth opportunities.</p>
                         </div>
                     </div>
 

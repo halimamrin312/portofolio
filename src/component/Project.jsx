@@ -1,4 +1,8 @@
 import CustomLink from './ProjectA'
+import img1 from '../../src/assets/image1.png'
+import img2 from '../../src/assets/image2.png'
+import img3 from '../../src/assets/image3.png'
+import img4 from '../../src/assets/image4.png'
 
 function Project() {
     return (
@@ -7,10 +11,10 @@ function Project() {
                 <p>MY PROJECT</p>
             </div>
             <div className='flex flex-wrap justify-between gap-10'>
-                <CustomLink href="https://github.com/halimamrin312/manajementevent">MANAJEMEN EVENT</CustomLink>
-                <CustomLink href="https://github.com/halimamrin312/portofolio">WEBSITE PORTOFOLIO</CustomLink>
-                <CustomLink href="https://github.com/halimamrin312/RHD---Project">RHD</CustomLink>
-                <CustomLink href="https://www.figma.com/proto/DYJmBTw9UhONRjLIFXLDkR/DuckGear?node-id=4-2&t=FghOWKRnyk4IFTCT-1">Duck-Gear</CustomLink>
+                <CustomLink src={img1} href="https://github.com/halimamrin312/manajementevent">MANAJEMEN EVENT</CustomLink>
+                <CustomLink src={img2} href="https://github.com/halimamrin312/portofolio">WEBSITE PORTOFOLIO</CustomLink>
+                <CustomLink src={img3} href="https://github.com/halimamrin312/RHD---Project">RHD</CustomLink>
+                <CustomLink src={img4} href="https://www.figma.com/proto/DYJmBTw9UhONRjLIFXLDkR/DuckGear?node-id=4-2&t=FghOWKRnyk4IFTCT-1">Duck-Gear</CustomLink>
             </div>
 
 
@@ -19,3 +23,63 @@ function Project() {
 }
 
 export default Project
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
