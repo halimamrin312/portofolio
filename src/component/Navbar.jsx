@@ -23,7 +23,7 @@ function Navbar() {
                 {/* <CustomLink href="#experience">Experience</CustomLink>
                 <CustomLink href="#certifactes">Certificates</CustomLink> */}
             </div>
-
+ 
             <div>
                 {/* <button onClick={()=>{downloadFileAtUrl(file)}}> */}
                 <a href="https://drive.usercontent.google.com/download?id=1CRG8ZI-A96AriyN4TcPZ5_OusbtzuN65&export=download&authuser=0" className="text-slate-900 bg-yellow-400 px-2 py-2 ">Download CV</a>
