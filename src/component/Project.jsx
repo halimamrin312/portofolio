@@ -12,7 +12,7 @@ function Project() {
             </div>
             <div className='flex flex-wrap justify-around gap-10 '>
 {/* <<<<<<< HEAD */}
-                <CustomLink src={img1} href="https://github.com/halimamrin312/manajementevent">MANAJEMEN EVENT</CustomLink>
+                <CustomLink src={img1} href="https://rhdm.000webhostapp.com/">MANAJEMENT EVENT</CustomLink>
                 <CustomLink src={img2} href="https://github.com/halimamrin312/portofolio">WEBSITE PORTOFOLIO</CustomLink>
                 <CustomLink src={img3} href="https://github.com/halimamrin312/RHD---Project">RHD</CustomLink>
                 <CustomLink src={img4} href="https://www.figma.com/proto/DYJmBTw9UhONRjLIFXLDkR/DuckGear?node-id=4-2&t=FghOWKRnyk4IFTCT-1">Duck-Gear</CustomLink>
