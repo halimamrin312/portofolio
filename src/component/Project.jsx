@@ -17,6 +17,7 @@ function Project() {
                 <CustomLink src={img3} href="https://github.com/halimamrin312/RHD---Project">RHD</CustomLink>
                 <CustomLink src={img4} href="https://www.figma.com/proto/DYJmBTw9UhONRjLIFXLDkR/DuckGear?node-id=4-2&t=FghOWKRnyk4IFTCT-1">Duck-Gear</CustomLink>
                 <CustomLink  href="https://github.com/halimamrin312/inventory-note">Inventory - Note (Team)</CustomLink>
+                <CustomLink  href="https://github.com/halimamrin312/To-Do-List-App.git">To-Do-List</CustomLink>
 {/* ======= */}
                 {/* <CustomLink src="../../public/assets/image1.png" href="https://github.com/halimamrin312/manajementevent">MANAJEMEN EVENT</CustomLink>
                 <CustomLink src="../../public/assets/image2.png" href="https://github.com/halimamrin312/portofolio">WEBSITE PORTOFOLIO</CustomLink>
